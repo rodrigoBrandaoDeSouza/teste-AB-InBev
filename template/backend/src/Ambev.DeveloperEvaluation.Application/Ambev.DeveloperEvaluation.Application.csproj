@@ -7,10 +7,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ambev.DeveloperEvaluation.Domain\Ambev.DeveloperEvaluation.Domain.csproj" />
+    <ProjectReference Include="..\Ambev.DeveloperEvaluation.Messaging\Ambev.DeveloperEvaluation.Messaging.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="13.0.1" />    
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />    
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="OneOf" Version="3.0.271" />
   </ItemGroup>
